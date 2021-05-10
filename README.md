@@ -1,2 +1,4 @@
 # GroupMenter
-GroupMenter : New Telegram Group Manager Bot🔸Fast 🔸Python🔸Pyrogram 🔸
+
+An PowerFull Group Manager Bot. Written In Pytelethon.
+
