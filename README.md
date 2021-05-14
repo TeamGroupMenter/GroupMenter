@@ -23,8 +23,6 @@ An PowerFull Group Manager Bot. Written In Pytelethon.
 
 ### Credits
 
-- [MashaRobot](https://github.com/Mr-Dark-Prince/MashaRoBot)
-- [SaitamaRobot](https://github.com/AnimeKaizoku/SaitamaRobot)
-- [WilliamButcherBot](https://github.com/thehamkercat/WilliamButcherBot)
+**[MashaRobot](https://github.com/Mr-Dark-Prince/MashaRoBot)** ▪ **[SaitamaRobot](https://github.com/AnimeKaizoku/SaitamaRobot)** ▪ **[WilliamButcherBot](https://github.com/thehamkercat/WilliamButcherBot)**
 
 All the credits goes to original code owners, here just only collection of modified plugins of them
