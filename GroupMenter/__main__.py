@@ -4,7 +4,7 @@ import re
 from sys import argv
 from typing import Optional
 
-from MashaRoBot import (
+from GroupMenter import (
     ALLOW_EXCL,
     CERT_PATH,
     DONATION_LINK,
@@ -25,9 +25,9 @@ from MashaRoBot import (
 
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
-from MashaRoBot.modules import ALL_MODULES
-from MashaRoBot.modules.helper_funcs.chat_status import is_user_admin
-from MashaRoBot.modules.helper_funcs.misc import paginate_modules
+from GroupMenter.modules import ALL_MODULES
+from GroupMenter.modules.helper_funcs.chat_status import is_user_admin
+from GroupMenter.modules.helper_funcs.misc import paginate_modules
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.error import (
     BadRequest,
@@ -74,17 +74,20 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hellow My name is` *Masha*
-`I'm here to help you manage your groups! Hit` *📚Commands* `button below to find out more about how to use me to my full potential.` 
+Hey there! My name is **Group Menter 🤖**.
+I'm here to help you manage your groups!
+Hit /help to find out more about how to use me to my full potential.
+
+Join My [News Channel] to get information on all the latest updates.
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD MASHA TO YOUR GROUP ➕️", url="t.me/MashaRoBot?startgroup=true"),
+            text="➕️ ADD TO YOUR GROUP ➕️", url="t.me/MashaRoBot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ℹ️ ABOUT", callback_data="masha_"),
+        InlineKeyboardButton(text="ℹ️ ABOUT", callback_data="groupmenter"),
         InlineKeyboardButton(text="📚 COMMANDS", callback_data="help_back"),
     ],
     [
@@ -98,10 +101,21 @@ buttons = [
 
 
 HELP_STRINGS = """
-*『HELP BUTTONS HERE』*"""
+Hey There! My name is *Group Menter*.
+I'm here to help you manage your groups!
+Commands available:
+× /start: Start the bot
+× /help: Give's you this message.
+× /donate: Information related on how to support my creator!
+
+All commands can either be used with / or !."""
 
 
-DONATE_STRING = """No need.. I'm rich"""
+DONATE_STRING = """Hey Thanks for your thought of donating me!
+When you donate, all the fund goes towards my development which makes on fast and responsive.
+Your donation might also me get me a new feature or two, which I wasn't able to get due to server limitations.
+
+All the fund would be put into my services such as database, storage and hosting!."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -342,31 +356,31 @@ def help_button(update, context):
 
 
 @run_async
-def Masha_about_callback(update: Update, context: CallbackContext):
+def groupmenter_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
-    if query.data == "masha_":
+    if query.data == "groupmenter":
         query.message.edit_text(
-            text=""" ℹ️ I'm *MASHA*, a powerful group management bot built to help you manage your group easily.
+            text=""" 🤖 I'm *Group Menter*, a powerful group management bot built to help you manage your group easily.
                  ❍ I can restrict users.
                  ❍ I can greet users with customizable welcome messages and even set a group's rules.
                  ❍ I have an advanced anti-flood system.
                  ❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
                  ❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  ❍ I check for admins' permissions before executing any command and more stuffs
-                 \n_Masha's licensed under the GNU General Public License v3.0_
+                 \n_Group Menter's licensed under the GNU General Public License v3.0_
                  Here is the [💾Repository](https://github.com/Mr-Dark-Prince/MashaRoBot).
-                 If you have any question about Masha, let us know at @WasteBots.""",
+                 If you have any question about Group Menter, let us know at @WasteBots.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Back", callback_data="masha_back")
+                    InlineKeyboardButton(text="Back", callback_data="menter_back")
                  ]
                 ]
             ),
         )
-    elif query.data == "masha_back":
+    elif query.data == "group_back":
         query.message.edit_text(
                 PM_START_TEXT,
                 reply_markup=InlineKeyboardMarkup(buttons),
@@ -381,7 +395,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *MASHA*
+            text=""" Hi..🤗 I'm *Group Menter*
                  \nHere is the [Source Code](https://github.com/Mr-Dark-Prince/MashaRoBot) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
