@@ -4,6 +4,10 @@ An PowerFull Group Manager Bot. Written In Pytelethon.
 
 [![Python](http://forthebadge.com/images/badges/made-with-python.svg)](https://python.org)&nbsp;
 
+### Features ✨
+
+- Anime Theme Bot
+
 ### Deploy to heroku 💤
 
 <p align="left">
