@@ -2,7 +2,7 @@
 
 An PowerFull Group Manager Bot. Written In Pytelethon.
 
-[Python](http://forthebadge.com/images/badges/made-with-python.svg)](https://python.org)&nbsp;
+[![Python](http://forthebadge.com/images/badges/made-with-python.svg)](https://python.org)&nbsp;
 
 ### Deploy to heroku 💤
 
