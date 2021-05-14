@@ -88,7 +88,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="ℹ️ ABOUT", callback_data="groupmenter"),
-        InlineKeyboardButton(text="📚 COMMANDS", callback_data="help_back"),
+        InlineKeyboardButton(text="❔ Help", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
