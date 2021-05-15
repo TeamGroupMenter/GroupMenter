@@ -5,8 +5,8 @@ import time
 from functools import partial
 from contextlib import suppress
 
-import MashaRoBot.modules.sql.welcome_sql as sql
-import MashaRoBot
+import GroupMenter.modules.sql.welcome_sql as sql
+import GroupMenter
 from MashaRoBot import (
     DEV_USERS,
     LOGGER,
@@ -19,18 +19,18 @@ from MashaRoBot import (
     dispatcher,
     JOIN_LOGGER
 )
-from MashaRoBot.modules.helper_funcs.chat_status import (
+from GroupMenter.modules.helper_funcs.chat_status import (
     is_user_ban_protected,
     user_admin,
 )
-from MashaRoBot.modules.helper_funcs.misc import build_keyboard, revert_buttons
-from MashaRoBot.modules.helper_funcs.msg_types import get_welcome_type
-from MashaRoBot.modules.helper_funcs.string_handling import (
+from GroupMenter.modules.helper_funcs.misc import build_keyboard, revert_buttons
+from GroupMenter.modules.helper_funcs.msg_types import get_welcome_type
+from GroupMenter.modules.helper_funcs.string_handling import (
     escape_invalid_curly_brackets,
     markdown_parser,
 )
-from MashaRoBot.modules.log_channel import loggable
-from MashaRoBot.modules.sql.global_bans_sql import is_user_gbanned
+from GroupMenter.modules.log_channel import loggable
+from GroupMenter.modules.sql.global_bans_sql import is_user_gbanned
 from telegram import (
     ChatPermissions,
     InlineKeyboardButton,
