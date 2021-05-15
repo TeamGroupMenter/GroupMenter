@@ -64,12 +64,12 @@ RUN apt update && apt upgrade -y && \
 # Pypi package Repo upgrade
 RUN pip3 install --upgrade pip setuptools
 
-# Copy Python Requirements to /root/MashaRoBot
-RUN git clone -b shiken https://github.com/Mr-Dark-Prince/MashaRoBot /root/MashaRoBot
+# Copy Python Requirements to /root/GroupMenter
+RUN git clone -b shiken https://github.com/TeamGroupMenter/GroupMenter /root/GroupMenter
 WORKDIR /root/MashaRoBot
 
-#Copy config file to /root/MashaRoBot/MashaRoBot
-COPY ./MashaRoBot/sample_config.py ./MashaRoBot/config.py* /root/MashaRoBot/MashaRoBot/
+#Copy config file to /root/GroupMenter/GroupMenter
+COPY ./GroupMenter/sample_config.py ./GroupMenter/config.py* /root/GroupMenter/GroupMenter/
 
 ENV PATH="/home/bot/bin:$PATH"
 
@@ -77,4 +77,4 @@ ENV PATH="/home/bot/bin:$PATH"
 RUN pip3 install -U -r requirements.txt
 
 # Starting Worker
-CMD ["python3","-m","MashaRoBot"]
+CMD ["python3","-m","GroupMenter"]
