@@ -1,4 +1,4 @@
 @echo off
-TITLE Masha Robot
+TITLE Group Menter
 :: Enables virtual env mode and then starts Masha
-env\scripts\activate.bat && py -m MashaRoBot
+env\scripts\activate.bat && py -m GroupMenter
