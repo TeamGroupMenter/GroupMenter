@@ -18,6 +18,7 @@ An PowerFull Group Manager Bot. Written In Pytelethon.
 <details>
   <summary>Deploy To Heroku</summary>
 
+
 - Fork this repo, create heroku new app and connect forked repo
 - Then get all vars from [here](https://github.com/ImJanindu/Mizuki/blob/main/vars)
 - Simply set all vars from heroku app settings
