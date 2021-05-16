@@ -12,9 +12,9 @@ from pyrogram.errors.exceptions.bad_request_400 import (
 )
 from pyrogram.types import ChatPermissions, InlineKeyboardButton, InlineKeyboardMarkup
 
-from MashaRoBot import DRAGONS as SUDO_USERS
-from MashaRoBot import pbot
-from MashaRoBot.modules.sql_extended import forceSubscribe_sql as sql
+from GroupMenter import DRAGONS as SUDO_USERS
+from GroupMenter import pbot
+from GroupMenter.modules.sql_extended import forceSubscribe_sql as sql
 
 logging.basicConfig(level=logging.INFO)
 
@@ -182,7 +182,7 @@ def config(client, message):
 __help__ = """
 *Force Subscribe:*
 
-❍ Masha can mute members who are not subscribed your channel until they subscribe
+❍ I can mute members who are not subscribed your channel until they subscribe
 ❍ When enabled I will mute unsubscribed members and show them a unmute button. When they pressed the button I will unmute them
 
 *Setup*
