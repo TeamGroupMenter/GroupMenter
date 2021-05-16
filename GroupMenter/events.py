@@ -8,8 +8,8 @@ from pathlib import Path
 from telethon import events
 
 from pymongo import MongoClient
-from MashaRoBot import MONGO_DB_URI
-from MashaRoBot import telethn
+from GroupMenter import MONGO_DB_URI
+from GroupMenter import telethn
 
 client = MongoClient()
 client = MongoClient(MONGO_DB_URI)
@@ -182,20 +182,20 @@ def load_module(shortname):
         pass
     elif shortname.endswith("_"):
         import importlib
-        import MashaRoBot.events
+        import GroupMenter.events
 
-        path = Path(f"MashaRoBot/modules/{shortname}.py")
-        name = "MashaRoBot.modules.{}".format(shortname)
+        path = Path(f"GroupMenter/modules/{shortname}.py")
+        name = "GroupMenter.modules.{}".format(shortname)
         spec = importlib.util.spec_from_file_location(name, path)
         mod = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(mod)
         print("Successfully imported " + shortname)
     else:
         import importlib
-        import MashaRoBot.events
+        import GroupMenter.events
 
-        path = Path(f"MashaRoBot/modules/{shortname}.py")
-        name = "MashaRoBot.modules.{}".format(shortname)
+        path = Path(f"GroupMenter/modules/{shortname}.py")
+        name = "GroupMenter.modules.{}".format(shortname)
         spec = importlib.util.spec_from_file_location(name, path)
         mod = importlib.util.module_from_spec(spec)
         mod.register = register
@@ -203,11 +203,11 @@ def load_module(shortname):
         mod.tbot = telethn
         mod.logger = logging.getLogger(shortname)
         spec.loader.exec_module(mod)
-        sys.modules["MashaRoBot.modules." + shortname] = mod
+        sys.modules["GroupMenter.modules." + shortname] = mod
         print("Successfully imported " + shortname)
 
 
-path = "MashaRoBot/modules/*.py"
+path = "GroupMenter/modules/*.py"
 files = glob.glob(path)
 for name in files:
     with open(name) as f:
