@@ -5,9 +5,9 @@ import requests
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, run_async
 
-from MashaRoBot import StartTime, dispatcher
-from MashaRoBot.modules.helper_funcs.chat_status import sudo_plus
-from MashaRoBot.modules.disable import DisableAbleCommandHandler
+from GroupMenter import StartTime, dispatcher
+from GroupMenter.modules.helper_funcs.chat_status import sudo_plus
+from GroupMenter.modules.disable import DisableAbleCommandHandler
 
 sites_list = {
     "Telegram": "https://api.telegram.org",
