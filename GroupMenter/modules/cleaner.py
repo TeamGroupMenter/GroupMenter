@@ -1,14 +1,14 @@
 import html
 
-from MashaRoBot import ALLOW_EXCL, CustomCommandHandler, dispatcher
-from MashaRoBot.modules.disable import DisableAbleCommandHandler
-from MashaRoBot.modules.helper_funcs.chat_status import (
+from GroupMenter import ALLOW_EXCL, CustomCommandHandler, dispatcher
+from GroupMenter.modules.disable import DisableAbleCommandHandler
+from GroupMenter.modules.helper_funcs.chat_status import (
     bot_can_delete,
     connection_status,
     dev_plus,
     user_admin,
 )
-from MashaRoBot.modules.sql import cleaner_sql as sql
+from GroupMenter.modules.sql import cleaner_sql as sql
 from telegram import ParseMode, Update
 from telegram.ext import (
     CallbackContext,
