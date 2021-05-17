@@ -1,9 +1,9 @@
 from time import sleep
 
-import MashaRoBot.modules.sql.global_bans_sql as gban_sql
-import MashaRoBot.modules.sql.users_sql as user_sql
-from MashaRoBot import DEV_USERS, OWNER_ID, dispatcher
-from MashaRoBot.modules.helper_funcs.chat_status import dev_plus
+import GroupMenter.modules.sql.global_bans_sql as gban_sql
+import GroupMenter.modules.sql.users_sql as user_sql
+from GroupMenter import DEV_USERS, OWNER_ID, dispatcher
+from GroupMenter.modules.helper_funcs.chat_status import dev_plus
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.error import BadRequest, Unauthorized
 from telegram.ext import (
