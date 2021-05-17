@@ -5,12 +5,12 @@ from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CallbackQueryHandler, run_async
 from telegram.utils.helpers import mention_html
 
-import MashaRoBot.modules.sql.approve_sql as sql
-from MashaRoBot import DRAGONS, dispatcher
-from MashaRoBot.modules.disable import DisableAbleCommandHandler
-from MashaRoBot.modules.helper_funcs.chat_status import user_admin
-from MashaRoBot.modules.helper_funcs.extraction import extract_user
-from MashaRoBot.modules.log_channel import loggable
+import GroupMenter.modules.sql.approve_sql as sql
+from GroupMenter import DRAGONS, dispatcher
+from GroupMenter.modules.disable import DisableAbleCommandHandler
+from GroupMenter.modules.helper_funcs.chat_status import user_admin
+from GroupMenter.modules.helper_funcs.extraction import extract_user
+from GroupMenter.modules.log_channel import loggable
 
 
 @loggable
