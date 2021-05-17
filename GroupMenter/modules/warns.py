@@ -3,9 +3,9 @@ import re
 from typing import Optional
 
 import telegram
-from MashaRoBot import TIGERS, WOLVES, dispatcher
-from MashaRoBot.modules.disable import DisableAbleCommandHandler
-from MashaRoBot.modules.helper_funcs.chat_status import (
+from GroupMenter import TIGERS, WOLVES, dispatcher
+from GroupMenter.modules.disable import DisableAbleCommandHandler
+from GroupMenter.modules.helper_funcs.chat_status import (
     bot_admin,
     can_restrict,
     is_user_admin,
@@ -14,16 +14,16 @@ from MashaRoBot.modules.helper_funcs.chat_status import (
     user_admin_no_reply,
     can_delete,
 )
-from MashaRoBot.modules.helper_funcs.extraction import (
+from GroupMenter.modules.helper_funcs.extraction import (
     extract_text,
     extract_user,
     extract_user_and_text,
 )
-from MashaRoBot.modules.helper_funcs.filters import CustomFilters
-from MashaRoBot.modules.helper_funcs.misc import split_message
-from MashaRoBot.modules.helper_funcs.string_handling import split_quotes
-from MashaRoBot.modules.log_channel import loggable
-from MashaRoBot.modules.sql import warns_sql as sql
+from GroupMenter.modules.helper_funcs.filters import CustomFilters
+from GroupMenter.modules.helper_funcs.misc import split_message
+from GroupMenter.modules.helper_funcs.string_handling import split_quotes
+from GroupMenter.modules.log_channel import loggable
+from GroupMenter.modules.sql import warns_sql as sql
 from telegram import (
     CallbackQuery,
     Chat,
@@ -45,7 +45,7 @@ from telegram.ext import (
     run_async,
 )
 from telegram.utils.helpers import mention_html
-from MashaRoBot.modules.sql.approve_sql import is_approved
+from GroupMenter.modules.sql.approve_sql import is_approved
 
 WARN_HANDLER_GROUP = 9
 CURRENT_WARNING_FILTER_STRING = "<b>Current warning filters in this chat:</b>\n"
@@ -121,7 +121,7 @@ def warn(
             [
                 [
                     InlineKeyboardButton(
-                        "🔘 Remove warn", callback_data="rm_warn({})".format(user.id)
+                        "❕ Remove warn ❕", callback_data="rm_warn({})".format(user.id)
                     )
                 ]
             ]
