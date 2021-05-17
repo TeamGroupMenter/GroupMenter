@@ -5,7 +5,7 @@ from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, Filters, run_async
 from telegram.utils.helpers import mention_html
 
-from MashaRoBot import (
+from GroupMenter import (
     DEV_USERS,
     LOGGER,
     OWNER_ID,
@@ -15,8 +15,8 @@ from MashaRoBot import (
     WOLVES,
     dispatcher,
 )
-from MashaRoBot.modules.disable import DisableAbleCommandHandler
-from MashaRoBot.modules.helper_funcs.chat_status import (
+from GroupMenter.modules.disable import DisableAbleCommandHandler
+from GroupMenter.modules.helper_funcs.chat_status import (
     bot_admin,
     can_restrict,
     connection_status,
@@ -27,9 +27,9 @@ from MashaRoBot.modules.helper_funcs.chat_status import (
     user_can_ban,
     can_delete,
 )
-from MashaRoBot.modules.helper_funcs.extraction import extract_user_and_text
-from MashaRoBot.modules.helper_funcs.string_handling import extract_time
-from MashaRoBot.modules.log_channel import gloggable, loggable
+from GroupMenter.modules.helper_funcs.extraction import extract_user_and_text
+from GroupMenter.modules.helper_funcs.string_handling import extract_time
+from GroupMenter.modules.log_channel import gloggable, loggable
 
 
 @run_async
