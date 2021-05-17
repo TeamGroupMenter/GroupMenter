@@ -7,7 +7,7 @@ from contextlib import suppress
 
 import GroupMenter.modules.sql.welcome_sql as sql
 import GroupMenter
-from MashaRoBot import (
+from GroupMenter import (
     DEV_USERS,
     LOGGER,
     OWNER_ID,
