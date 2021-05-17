@@ -1,9 +1,9 @@
 import html
 
-from MashaRoBot import LOGGER, DRAGONS, TIGERS, WOLVES, dispatcher
-from MashaRoBot.modules.helper_funcs.chat_status import user_admin, user_not_admin
-from MashaRoBot.modules.log_channel import loggable
-from MashaRoBot.modules.sql import reporting_sql as sql
+from GroupMenter import LOGGER, DRAGONS, TIGERS, WOLVES, dispatcher
+from GroupMenter.modules.helper_funcs.chat_status import user_admin, user_not_admin
+from GroupMenter.modules.log_channel import loggable
+from GroupMenter.modules.sql import reporting_sql as sql
 from telegram import Chat, InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.error import BadRequest, Unauthorized
 from telegram.ext import (
