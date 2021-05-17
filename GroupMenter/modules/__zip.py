@@ -5,9 +5,9 @@ import zipfile
 from telethon import types
 from telethon.tl import functions
 
-from MashaRoBot import TEMP_DOWNLOAD_DIRECTORY
-from MashaRoBot import telethn as client
-from MashaRoBot.events import register
+from GroupMenter import TEMP_DOWNLOAD_DIRECTORY
+from GroupMenter import telethn as client
+from GroupMenter.events import register
 
 
 async def is_register_admin(chat, user):
