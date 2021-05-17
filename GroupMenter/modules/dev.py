@@ -5,10 +5,10 @@ import sys
 from contextlib import suppress
 from time import sleep
 
-import MashaRoBot
+import GroupMenter
 
-from MashaRoBot import dispatcher
-from MashaRoBot.modules.helper_funcs.chat_status import dev_plus
+from GroupMenter import dispatcher
+from GroupMenter.modules.helper_funcs.chat_status import dev_plus
 from telegram import TelegramError, Update
 from telegram.error import Unauthorized
 from telegram.ext import CallbackContext, CommandHandler, run_async
@@ -18,12 +18,12 @@ from telegram.ext import CallbackContext, CommandHandler, run_async
 def allow_groups(update: Update, context: CallbackContext):
     args = context.args
     if not args:
-        update.effective_message.reply_text(f"Current state: {MashaRoBot.ALLOW_CHATS}")
+        update.effective_message.reply_text(f"Current state: {GroupMenter.ALLOW_CHATS}")
         return
     if args[0].lower() in ["off", "no"]:
-        MashaRoBot.ALLOW_CHATS = True
+        GroupMenter.ALLOW_CHATS = True
     elif args[0].lower() in ["yes", "on"]:
-        MashaRoBot.ALLOW_CHATS = False
+        GroupMenter.ALLOW_CHATS = False
     else:
         update.effective_message.reply_text("Format: /lockdown Yes/No or Off/On")
         return
