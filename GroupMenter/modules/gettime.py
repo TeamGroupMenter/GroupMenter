@@ -2,8 +2,8 @@ import datetime
 from typing import List
 
 import requests
-from MashaRoBot import TIME_API_KEY, dispatcher
-from MashaRoBot.modules.disable import DisableAbleCommandHandler
+from GroupMenter import TIME_API_KEY, dispatcher
+from GroupMenter.modules.disable import DisableAbleCommandHandler
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, run_async
 
