@@ -1,14 +1,14 @@
-from MashaRoBot.events import register
-from MashaRoBot import telethn as tbot
+from GroupMenter.events import register
+from GroupMenter import telethn as tbot
 TMP_DOWNLOAD_DIRECTORY = "./"
 from telethon import events
 import os
 from PIL import Image
 from datetime import datetime
 from telegraph import Telegraph, upload_file, exceptions
-darkprince = "MASHA"
+GM = "GroupMenter"
 telegraph = Telegraph()
-r = telegraph.create_account(short_name=darkprince)
+r = telegraph.create_account(short_name=GM)
 auth_url = r["auth_url"]
 
 
