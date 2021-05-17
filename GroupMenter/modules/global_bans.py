@@ -14,9 +14,9 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html
 
-import MashaRoBot.modules.sql.global_bans_sql as sql
-from MashaRoBot.modules.sql.users_sql import get_user_com_chats
-from MashaRoBot import (
+import GroupMenter.modules.sql.global_bans_sql as sql
+from GroupMenter.modules.sql.users_sql import get_user_com_chats
+from GroupMenter import (
     DEV_USERS,
     EVENT_LOGS,
     OWNER_ID,
@@ -30,16 +30,16 @@ from MashaRoBot import (
     sw,
     dispatcher,
 )
-from MashaRoBot.modules.helper_funcs.chat_status import (
+from GroupMenter.modules.helper_funcs.chat_status import (
     is_user_admin,
     support_plus,
     user_admin,
 )
-from MashaRoBot.modules.helper_funcs.extraction import (
+from GroupMenter.modules.helper_funcs.extraction import (
     extract_user,
     extract_user_and_text,
 )
-from MashaRoBot.modules.helper_funcs.misc import send_to_list
+from GroupMenter.modules.helper_funcs.misc import send_to_list
 
 GBAN_ENFORCE_GROUP = 6
 
