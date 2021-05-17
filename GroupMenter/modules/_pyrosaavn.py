@@ -5,11 +5,11 @@ import requests
 import wget
 from pyrogram import filters
 
-from MashaRoBot import pbot as Jebot
-from MashaRoBot.pyrogramee.dark import get_arg
+from GroupMenter import pbot as GMbot
+from GroupMenter.pyrogramee.dark import get_arg
 
 
-@Jebot.on_message(filters.command("saavn"))
+@GMbot.on_message(filters.command("saavn"))
 async def song(client, message):
     message.chat.id
     message.from_user["id"]
