@@ -1,17 +1,17 @@
 import html
 from typing import Optional
 
-import MashaRoBot.modules.sql.blsticker_sql as sql
-from MashaRoBot import LOGGER, dispatcher
-from MashaRoBot.modules.connection import connected
-from MashaRoBot.modules.disable import DisableAbleCommandHandler
-from MashaRoBot.modules.helper_funcs.alternate import send_message
-from MashaRoBot.modules.helper_funcs.chat_status import user_admin, user_not_admin
-from MashaRoBot.modules.helper_funcs.misc import split_message
-from MashaRoBot.modules.helper_funcs.string_handling import extract_time
+import GroupMenter.modules.sql.blsticker_sql as sql
+from GroupMenter import LOGGER, dispatcher
+from GroupMenter.modules.connection import connected
+from GroupMenter.modules.disable import DisableAbleCommandHandler
+from GroupMenter.modules.helper_funcs.alternate import send_message
+from GroupMenter.modules.helper_funcs.chat_status import user_admin, user_not_admin
+from GroupMenter.modules.helper_funcs.misc import split_message
+from GroupMenter.modules.helper_funcs.string_handling import extract_time
 
-from MashaRoBot.modules.log_channel import loggable
-from MashaRoBot.modules.warns import warn
+from GroupMenter.modules.log_channel import loggable
+from GroupMenter.modules.warns import warn
 from telegram import Chat, Message, ParseMode, Update, User, ChatPermissions
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, Filters, MessageHandler
