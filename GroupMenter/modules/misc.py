@@ -1,6 +1,6 @@
-from MashaRoBot.modules.helper_funcs.chat_status import user_admin
-from MashaRoBot.modules.disable import DisableAbleCommandHandler
-from MashaRoBot import dispatcher
+from GroupMenter.modules.helper_funcs.chat_status import user_admin
+from GroupMenter.modules.disable import DisableAbleCommandHandler
+from GroupMenter import dispatcher
 
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram import ParseMode, Update
