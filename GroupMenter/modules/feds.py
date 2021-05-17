@@ -6,8 +6,8 @@ import time
 import uuid
 from io import BytesIO
 
-import MashaRoBot.modules.sql.feds_sql as sql
-from MashaRoBot import (
+import GroupMenter.modules.sql.feds_sql as sql
+from GroupMenter import (
     EVENT_LOGS,
     LOGGER,
     SUPPORT_CHAT,
@@ -17,15 +17,15 @@ from MashaRoBot import (
     WOLVES,
     dispatcher,
 )
-from MashaRoBot.modules.disable import DisableAbleCommandHandler
-from MashaRoBot.modules.helper_funcs.alternate import send_message
-from MashaRoBot.modules.helper_funcs.chat_status import is_user_admin
-from MashaRoBot.modules.helper_funcs.extraction import (
+from GroupMenter.modules.disable import DisableAbleCommandHandler
+from GroupMenter.modules.helper_funcs.alternate import send_message
+from GroupMenter.modules.helper_funcs.chat_status import is_user_admin
+from GroupMenter.modules.helper_funcs.extraction import (
     extract_unt_fedban,
     extract_user,
     extract_user_fban,
 )
-from MashaRoBot.modules.helper_funcs.string_handling import markdown_parser
+from GroupMenter.modules.helper_funcs.string_handling import markdown_parser
 from telegram import (
     InlineKeyboardButton,
     InlineKeyboardMarkup,
