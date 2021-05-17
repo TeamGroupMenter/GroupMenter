@@ -1,7 +1,7 @@
 import random
 
-from MashaRoBot import dispatcher
-from MashaRoBot.modules.disable import DisableAbleCommandHandler
+from GroupMenter import dispatcher
+from GroupMenter.modules.disable import DisableAbleCommandHandler
 from telegram import Update
 from telegram.ext import CallbackContext, run_async
 
