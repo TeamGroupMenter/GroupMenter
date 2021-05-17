@@ -3,14 +3,14 @@ import html
 # AI module using Intellivoid's Coffeehouse API by @TheRealPhoenix
 from time import sleep, time
 
-import MashaRoBot.modules.sql.chatbot_sql as sql
+import GroupMenter.modules.sql.chatbot_sql as sql
 from coffeehouse.api import API
 from coffeehouse.exception import CoffeeHouseError as CFError
 from coffeehouse.lydia import LydiaAI
-from MashaRoBot import AI_API_KEY, OWNER_ID, SUPPORT_CHAT, dispatcher
-from MashaRoBot.modules.helper_funcs.chat_status import user_admin
-from MashaRoBot.modules.helper_funcs.filters import CustomFilters
-from MashaRoBot.modules.log_channel import gloggable
+from GroupMenter import AI_API_KEY, OWNER_ID, SUPPORT_CHAT, dispatcher
+from GroupMenter.modules.helper_funcs.chat_status import user_admin
+from GroupMenter.modules.helper_funcs.filters import CustomFilters
+from GroupMenter.modules.log_channel import gloggable
 from telegram import Update
 from telegram.error import BadRequest, RetryAfter, Unauthorized
 from telegram.ext import (
@@ -80,7 +80,7 @@ def remove_chat(update: Update, context: CallbackContext):
 
 def check_message(context: CallbackContext, message):
     reply_msg = message.reply_to_message
-    if message.text.lower() == "masha":
+    if message.text.lower() == "GroupMenter":
         return True
     if reply_msg:
         if reply_msg.from_user.id == context.bot.get_me().id:
