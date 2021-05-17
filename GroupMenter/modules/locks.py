@@ -9,20 +9,20 @@ from telegram.utils.helpers import mention_html
 
 from alphabet_detector import AlphabetDetector
 
-import MashaRoBot.modules.sql.locks_sql as sql
-from MashaRoBot import dispatcher, DRAGONS, LOGGER
-from MashaRoBot.modules.disable import DisableAbleCommandHandler
-from MashaRoBot.modules.helper_funcs.chat_status import (
+import GroupMenter.modules.sql.locks_sql as sql
+from GroupMenter import dispatcher, DRAGONS, LOGGER
+from GroupMenter.modules.disable import DisableAbleCommandHandler
+from GroupMenter.modules.helper_funcs.chat_status import (
     can_delete,
     is_user_admin,
     user_not_admin,
     is_bot_admin,
     user_admin,
 )
-from MashaRoBot.modules.log_channel import loggable
-from MashaRoBot.modules.connection import connected
-from MashaRoBot.modules.sql.approve_sql import is_approved
-from MashaRoBot.modules.helper_funcs.alternate import send_message, typing_action
+from GroupMenter.modules.log_channel import loggable
+from GroupMenter.modules.connection import connected
+from GroupMenter.modules.sql.approve_sql import is_approved
+from GroupMenter.modules.helper_funcs.alternate import send_message, typing_action
 
 ad = AlphabetDetector()
 
