@@ -2,11 +2,11 @@ import html
 import random
 import time
 
-import MashaRoBot.modules.fun_strings as fun_strings
-from MashaRoBot import dispatcher
-from MashaRoBot.modules.disable import DisableAbleCommandHandler
-from MashaRoBot.modules.helper_funcs.chat_status import is_user_admin
-from MashaRoBot.modules.helper_funcs.extraction import extract_user
+import GroupMenter.modules.fun_strings as fun_strings
+from GroupMenter import dispatcher
+from GroupMenter.modules.disable import DisableAbleCommandHandler
+from GroupMenter.modules.helper_funcs.chat_status import is_user_admin
+from GroupMenter.modules.helper_funcs.extraction import extract_user
 from telegram import ChatPermissions, ParseMode, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, run_async
