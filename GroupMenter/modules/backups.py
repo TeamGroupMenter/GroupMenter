@@ -5,23 +5,23 @@ from telegram import ParseMode, Message
 from telegram.error import BadRequest
 from telegram.ext import CommandHandler, run_async
 
-import MashaRoBot.modules.sql.notes_sql as sql
-from MashaRoBot import dispatcher, LOGGER, OWNER_ID, JOIN_LOGGER, SUPPORT_CHAT
-from MashaRoBot.__main__ import DATA_IMPORT
-from MashaRoBot.modules.helper_funcs.chat_status import user_admin
-from MashaRoBot.modules.helper_funcs.alternate import typing_action
+import GroupMenter.modules.sql.notes_sql as sql
+from GroupMenter import dispatcher, LOGGER, OWNER_ID, JOIN_LOGGER, SUPPORT_CHAT
+from GroupMenter.__main__ import DATA_IMPORT
+from GroupMenter.modules.helper_funcs.chat_status import user_admin
+from GroupMenter.modules.helper_funcs.alternate import typing_action
 
-# from MashaRoBot.modules.rules import get_rules
-import MashaRoBot.modules.sql.rules_sql as rulessql
+# from GroupMenter.modules.rules import get_rules
+import GroupMenter.modules.sql.rules_sql as rulessql
 
-# from MashaRoBot.modules.sql import warns_sql as warnssql
-import MashaRoBot.modules.sql.blacklist_sql as blacklistsql
-from MashaRoBot.modules.sql import disable_sql as disabledsql
+# from GroupMenter.modules.sql import warns_sql as warnssql
+import GroupMenter.modules.sql.blacklist_sql as blacklistsql
+from GroupMenter.modules.sql import disable_sql as disabledsql
 
-# from MashaRoBot.modules.sql import cust_filters_sql as filtersql
-# import MashaRoBot.modules.sql.welcome_sql as welcsql
-import MashaRoBot.modules.sql.locks_sql as locksql
-from MashaRoBot.modules.connection import connected
+# from GroupMenter.modules.sql import cust_filters_sql as filtersql
+# import GroupMenter.modules.sql.welcome_sql as welcsql
+import GroupMenter.modules.sql.locks_sql as locksql
+from GroupMenter.modules.connection import connected
 
 
 @run_async
@@ -325,7 +325,7 @@ def export_data(update, context):
         },
     }
     baccinfo = json.dumps(backup, indent=4)
-    with open("MashaRoBot{}.backup".format(chat_id), "w") as f:
+    with open("GroupMenter{}.backup".format(chat_id), "w") as f:
         f.write(str(baccinfo))
     context.bot.sendChatAction(current_chat_id, "upload_document")
     tgl = time.strftime("%H:%M:%S - %d/%m/%Y", time.localtime(time.time()))
@@ -341,15 +341,15 @@ def export_data(update, context):
         pass
     context.bot.sendDocument(
         current_chat_id,
-        document=open("MashaRoBot{}.backup".format(chat_id), "rb"),
-        caption="💾*Successfully Exported backup:*\nChat: `{}`\nChat ID: `{}`\nOn: `{}`\n\nNote: This `MashaRoBot-Backup` was specially made for notes 📚.".format(
+        document=open("GroupMenter{}.backup".format(chat_id), "rb"),
+        caption="💾*Successfully Exported backup:*\nChat: `{}`\nChat ID: `{}`\nOn: `{}`\n\nNote: This `GroupMenter-Backup` was specially made for notes 📚.".format(
             chat.title, chat_id, tgl
         ),
         timeout=360,
         reply_to_message_id=msg.message_id,
         parse_mode=ParseMode.MARKDOWN,
     )
-    os.remove("MashaRoBot{}.backup".format(chat_id))  # Cleaning file
+    os.remove("GroupMenter{}.backup".format(chat_id))  # Cleaning file
 
 
 # Temporary data
