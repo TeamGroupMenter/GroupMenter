@@ -1,13 +1,13 @@
-from MashaRoBot import telethn as bot
-from MashaRoBot import telethn as tbot
-from MashaRoBot.events import register
+from GroupMenter import telethn as bot
+from GroupMenter import telethn as tbot
+from GroupMenter.events import register
 from telethon import *
 from telethon import Button, custom, events, functions
-from MashaRoBot.helper_extra.badmedia import is_nsfw
+from GroupMenter.helper_extra.badmedia import is_nsfw
 import requests
 import string 
 import random 
-from MashaRoBot.modules.sql_extended.nsfw_watch_sql import add_nsfwatch, rmnsfwatch, get_all_nsfw_enabled_chat, is_nsfwatch_indb
+from GroupMenter.modules.sql_extended.nsfw_watch_sql import add_nsfwatch, rmnsfwatch, get_all_nsfw_enabled_chat, is_nsfwatch_indb
 from telethon.tl.types import (
     ChannelParticipantsAdmins,
     ChatAdminRights,
@@ -111,7 +111,7 @@ async def ws(event):
 
 
 __help__ = """
-Masha can protect your group from NSFW senders
+Group Menter can protect your group from NSFW senders
  ❍ /addnsfw*:* Adds The Group to nsfw Watch List
  ❍ /rmnsfw*:* Removes The Group From nsfw Watch List
 """
