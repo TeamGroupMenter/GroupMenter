@@ -33,9 +33,7 @@ An PowerFull Group Manager Bot. Written In Pytelethon.
 
 </details>
 
-### Don't forget to star the repo ⭐
-
-### Devs
+### Developers 👨🏻‍💻
 
 - [Vivek](https://github.com/Vivek-TP)
 
