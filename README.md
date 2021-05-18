@@ -1,9 +1,10 @@
 # GroupMenter
 
 An PowerFull Group Manager Bot. Written In Pytelethon.
-<p align="center">
-  [![Python](http://forthebadge.com/images/badges/made-with-python.svg)](https://python.org)&nbsp;
-</p>
+
+[![Python](http://forthebadge.com/images/badges/made-with-python.svg)](https://python.org)&nbsp;
+
+[![Telegram](https://img.shields.io/badge/Channel-003245?style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=telegram)](https://t.me/GroupMenter)&nbsp; [![Telegram](https://img.shields.io/badge/Support-003245?style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=telegram)](https://t.me/GroupMenterSupport)&nbsp;
 
 ### Features ✨
 
@@ -12,7 +13,7 @@ An PowerFull Group Manager Bot. Written In Pytelethon.
 ### Deploy to heroku 💤
 
 <p align="left">
-  <a href="https://heroku.com/deploy?template=https://github.com/TeamGroupMenter/GroupMenter">
+  <a href="https://heroku.com/deploy/">
      <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
   </a>
 
