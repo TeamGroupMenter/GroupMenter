@@ -2,9 +2,9 @@ from pymongo import MongoClient
 from telethon import *
 from telethon.tl import *
 
-from MashaRoBot import BOT_ID, MONGO_DB_URI
-from MashaRoBot import telethn as tbot
-from MashaRoBot.events import register
+from GroupMenter import BOT_ID, MONGO_DB_URI
+from GroupMenter import telethn as tbot
+from GroupMenter.events import register
 
 client = MongoClient()
 client = MongoClient(MONGO_DB_URI)
@@ -394,7 +394,7 @@ async def stop(event):
 
 
 __help__ = """
-You can now send polls anonymously with Masha
+You can now send polls anonymously with Group Menter
 Here is how you can do it:
 **Parameters** -
  ❍ poll-id - a poll id consists of an 5 digit random integer, this id is automatically removed from the system when you stop your previous poll
