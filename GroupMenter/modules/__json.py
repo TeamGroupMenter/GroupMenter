@@ -1,7 +1,7 @@
 import io
-from MashaRoBot.events import register
-from MashaRoBot import telethn as borg
-from MashaRoBot import telethn as tbot
+from GroupMenter.events import register
+from GroupMenter import telethn as borg
+from GroupMenter import telethn as tbot
 from telethon import types
 from telethon import events
 from telethon.tl import functions, types
