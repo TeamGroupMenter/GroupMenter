@@ -1,14 +1,14 @@
 {
-      "name": "MashaRoBot",
-      "description": "Telegram group management bot.",
+      "name": "Group Menter",
+      "description": "A Complete Pytelethon Version Telegram group management bot.",
       "keywords": [
          "telegram",
          "anime",
          "group",
          "manager",
-         "Masha"
+         "Group Menter"
       ],   
-   "repository": "https://github.com/Mr-Dark-Prince/MashaRoBot",
+   "repository": "https://github.com/TeamGroupMenter/GroupMenter",
    "addons": [
       {
          "options": {
@@ -34,7 +34,7 @@
          "value": ""
       },    
       "SQLALCHEMY_DATABASE_URI": {
-         "description": "Your postgres sql db, empty this field if you dont have one.",
+         "description": "Your postgres sql db, empty this field if you have no idea.",
          "required": false,
          "value": "sqldbtype://username:pw@hostname:port/db_name"
       },      
@@ -66,7 +66,7 @@
          "value": ""
       },
       "MONGO_DB_URI": {
-         "description": "Required for database connections.",
+         "description": "Required for database connections. cloud.mongodb.com",
          "required": false,
          "value": ""
       },
@@ -173,7 +173,7 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
          "required": false,
-         "value": "https://www.paypal.me/PaulSonOfLars"
+         "value": "https://www.paypal.me/vivek_kerala"
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
