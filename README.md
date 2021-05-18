@@ -35,11 +35,12 @@ An PowerFull Group Manager Bot. Written In Pytelethon.
 
 ### Developers 👨🏻‍💻
 
-- [Vivek](https://github.com/Vivek-TP)
+- **[Vivek](https://github.com/Vivek-TP)**
 
 ### Credits ❤
 
 **[Vivek](https://github.com/VIVEK-TP)** ▪ **[Aswin Raj](https://github.com/ASWIN-RAJ-TG)** ▪ **[ᴊᴀʏᴀиᴛ ʜᴇɢᴅᴇ ᴋᴀɢᴇяɪ](https://github.com/jayantkagerI)** ▪ **[Fayas](https://github.com/FAYASNOUSHAD)** ▪ **[RabbitFoRed](https://github.com/RabbitFored)** ▪ **[Itz-Fork](https://github.com/Itz-fork)** ▪ **[HEIMAN PICTURES](https://github.com/HeimanPictures)** ▪ **[Uvindu Bro](https://github.com/UvinduBro)** ▪ **[MashaRobot](https://github.com/Mr-Dark-Prince/MashaRoBot)** ▪ **[SaitamaRobot](https://github.com/AnimeKaizoku/SaitamaRobot)** ▪ **[WilliamButcherBot](https://github.com/thehamkercat/WilliamButcherBot)**
+
 `All the credits goes to original code owners, here just only collection of modified plugins of them`
 
 ### Sponsors 🎸
