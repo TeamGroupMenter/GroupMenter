@@ -1,8 +1,9 @@
 # GroupMenter
 
 An PowerFull Group Manager Bot. Written In Pytelethon.
-
-[![Python](http://forthebadge.com/images/badges/made-with-python.svg)](https://python.org)&nbsp;
+<p align="center">
+  [![Python](http://forthebadge.com/images/badges/made-with-python.svg)](https://python.org)&nbsp;
+</p>
 
 ### Features ✨
 
