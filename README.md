@@ -20,18 +20,11 @@ An PowerFull Group Manager Bot. Written In Pytelethon.
      <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
   </a>
 
-<details>
-  <summary>Deploy To Heroku</summary>
 
+<a href="https://github-readme-stats.vercel.app/api/top-langs/?username=teamgroupmenter">
+    <img width="40%"align="right" alt="Onimur's github stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bemroofficial&show_icons=true&theme=midnight-purple" />
+  </a>
 
-- Fork this repo, create heroku new app and connect forked repo
-- Then get all vars from [here](https://github.com/ImJanindu/Mizuki/blob/main/vars)
-- Simply set all vars from heroku app settings
-- Add heroku-postgresql resource to heroku app
-- Add [this url](https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest) on heroku buildpacks (need for some modules)
-- Finally deploy the bot
-
-</details>
 
 ### Developers 👨🏻‍💻
 
