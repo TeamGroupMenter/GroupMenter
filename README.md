@@ -7,7 +7,7 @@ An PowerFull Group Manager Bot. Written In Pytelethon.
      <img height="30px" src="http://forthebadge.com/images/badges/made-with-python.svg">
   </a>
 
-[![Telegram](https://img.shields.io/badge/Channel-003245?style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=telegram)](https://t.me/GroupMenter)&nbsp; [![Telegram](https://img.shields.io/badge/Support-003245?style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=telegram)](https://t.me/GroupMenterSupport)&nbsp;
+[![Telegram](https://img.shields.io/badge/Channel-003245?style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=telegram)](https://t.me/GroupMenterUpdates)&nbsp; [![Telegram](https://img.shields.io/badge/Support-003245?style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=telegram)](https://t.me/GroupMenterGroup)&nbsp;
 
 ### Features ✨
 
