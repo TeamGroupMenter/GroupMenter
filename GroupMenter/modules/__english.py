@@ -1,7 +1,7 @@
-from MashaRoBot import telethn as tbot
+from GroupMenter import telethn as tbot
 import json
 import requests
-from MashaRoBot.events import register
+from GroupMenter.events import register
 from telethon import *
 from telethon.tl import functions
 import os
