@@ -20,12 +20,6 @@ An PowerFull Group Manager Bot. Written In Pytelethon.
      <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
   </a>
 
-
-<a href="https://github-readme-stats.vercel.app/api/top-langs/?username=teamgroupmenter/">
-    <img width="40%"align="right" alt="Onimur's github stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=teamgroupmenter&show_icons=true&theme=midnight-purple" />
-  </a>
-
-
 ### Developers 👨🏻‍💻
 
 - **[Vivek](https://github.com/Vivek-TP)**
