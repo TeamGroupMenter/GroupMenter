@@ -3,7 +3,7 @@ import threading
 
 from sqlalchemy import Column, String, Boolean
 
-from MashaRoBot.modules.sql import SESSION, BASE
+from GroupMenter.modules.sql import SESSION, BASE
 
 
 class Permissions(BASE):
