@@ -21,8 +21,8 @@ An PowerFull Group Manager Bot. Written In Pytelethon.
   </a>
 
 
-<a href="https://github-readme-stats.vercel.app/api/top-langs/?username=teamgroupmenter">
-    <img width="40%"align="right" alt="Onimur's github stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bemroofficial&show_icons=true&theme=midnight-purple" />
+<a href="https://github-readme-stats.vercel.app/api/top-langs/?username=teamgroupmenter/">
+    <img width="40%"align="right" alt="Onimur's github stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=teamgroupmenter&show_icons=true&theme=midnight-purple" />
   </a>
 
 
