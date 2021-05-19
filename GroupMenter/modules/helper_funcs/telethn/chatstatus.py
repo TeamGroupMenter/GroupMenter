@@ -1,5 +1,5 @@
-from MashaRoBot.modules.helper_funcs.telethn import IMMUNE_USERS, telethn
-from MashaRoBot import DRAGONS
+from GroupMenter.modules.helper_funcs.telethn import IMMUNE_USERS, telethn
+from GroupMenter import DRAGONS
 from telethon.tl.types import ChannelParticipantsAdmins
 
 
