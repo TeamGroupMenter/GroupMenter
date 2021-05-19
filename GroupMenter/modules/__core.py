@@ -1,6 +1,6 @@
 # credits @RoseLoverX
-from MashaRoBot import telethn as tbot
-from MashaRoBot.events import register
+from GroupMenter import telethn as tbot
+from GroupMenter.events import register
 import os
 import asyncio
 import os
