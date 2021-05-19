@@ -78,23 +78,23 @@ Hey there! My name is **Group Menter 🤖**.
 I'm here to help you manage your groups!
 Hit /help to find out more about how to use me to my full potential.
 
-Join My [News Channel](https://t.me/GroupMenter) to get information on all the latest updates.
+Join My [News Channel](https://t.me/GroupMenterUpdates) to get information on all the latest updates.
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD TO YOUR GROUP ➕️", url="t.me/MashaRoBot?startgroup=true"),
+            text="➕️ ADD TO YOUR GROUP ➕️", url="https://t.me/GroupMenterRobot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ℹ️ ABOUT", callback_data="groupmenter"),
-        InlineKeyboardButton(text="❔ Help", callback_data="help_back"),
+        InlineKeyboardButton(text="🤖 Updates", url="https://t.me/GroupMenterUpdates"),
+        InlineKeyboardButton(text="👥 SUPPORT", url="https://t.me/@GroupMenterGroup"),
     ],
     [
         InlineKeyboardButton(
-            text="💾 SOURCE", callback_data="source_"),
+            text="🛠  About", callback_data="groupmenter"),
         InlineKeyboardButton(
-            text="👥 SUPPORT", url="https://t.me/wastebots"
+            text="❔ Help", callback_data="HELP_STRINGS"
         ),
     ],
 ]
