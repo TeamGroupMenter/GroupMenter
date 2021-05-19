@@ -5,8 +5,8 @@ from telethon.utils import get_input_location
 import flag
 import html, os
 from countryinfo import CountryInfo
-from MashaRoBot import telethn as borg
-from MashaRoBot.events import register
+from GroupMenter import telethn as borg
+from GroupMenter.events import register
 
 
 @register(pattern="^/country (.*)")
@@ -101,7 +101,7 @@ Time Zones:- {tom}
 Top Level Domain:- {lanester}
 wikipedia:- {wiki}</b>
 
-Gathered By MASHA.</b>
+Gathered By Group Menter.</b>
 """
     
     
