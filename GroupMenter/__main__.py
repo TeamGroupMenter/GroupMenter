@@ -84,17 +84,17 @@ Join My [News Channel](https://t.me/GroupMenterUpdates) to get information on al
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD TO YOUR GROUP ➕️", url="t.me/MashaRoBot?startgroup=true"),
+            text="➕️ ADD TO YOUR GROUP ➕️", url="https://t.me/GroupMenterRobot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ℹ️ ABOUT", callback_data="groupmenter"),
-        InlineKeyboardButton(text="❔ Help", callback_data="help_back"),
+        InlineKeyboardButton(text="🤖 Updates", url="https://t.me/GroupMenterUpdates"),
+        InlineKeyboardButton(text="👥 SUPPORT", url="https://t.me/GroupMenterGroup"),
     ],
     [
         InlineKeyboardButton(
-            text="💾 SOURCE", callback_data="source_"),
+            text="🛠  About", callback_data="groupmenter"),
         InlineKeyboardButton(
-            text="👥 SUPPORT", url="https://t.me/wastebots"
+            text="❔ Help", callback_data="HELP_STRINGS"
         ),
     ],
 ]
