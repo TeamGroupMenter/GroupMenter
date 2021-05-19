@@ -1,19 +1,19 @@
 # credits @RoseLoverX @InukaASiTH
-# ported to masha @Mr_dark_prince
-from MashaRoBot import OWNER_ID, BOT_ID
-from MashaRoBot import telethn as tbot
-import MashaRoBot.modules.sql.aihelp_sql as sql
-import MashaRoBot.modules.sql.chatbot_sql as ly
+# Credits @Mr_dark_prince
+from GroupMenter import OWNER_ID, BOT_ID
+from GroupMenter import telethn as tbot
+import GroupMenter.modules.sql.aihelp_sql as sql
+import GroupMenter.modules.sql.chatbot_sql as ly
 from google_trans_new import google_translator
 translator = google_translator()
 import requests
 
 
 from telethon import events
-from MashaRoBot.events import register
+from GroupMenter.events import register
 
 string = (
-  "I belong To Mr_dark_prince!",
+  "I belong To [My Channel](https://t.me/GroupMenter)!",
   "Im Fairly Yound And Was Made by mr_dark_prince!",
 )
 
@@ -78,8 +78,8 @@ async def _(event):
         return
   prof = str(event.text)
   
-  if not "Masha" in prof:
-    if not "masha" in prof:
+  if not "GroupMenter" in prof:
+    if not "GroupMenter" in prof:
       reply_msg = await event.get_reply_message()
       if not reply_msg.sender_id == BOT_ID:
            return
@@ -120,7 +120,7 @@ async def _(event):
    except CFError as e:
            print(e)
   elif "Ann" in result:
-   pro = "Yeah, My name is Masha"
+   pro = "Yeah, My name is GroupMenter"
    try:
       async with tbot.action(event.chat_id, 'typing'):
            await event.reply(pro)
