@@ -1,6 +1,6 @@
-from MashaRoBot import telethn as tbot
+from GroupMenter import telethn as tbot
 import os
-from MashaRoBot.events import register
+from GroupMenter.events import register
 import secureme
 
 @register(pattern="^/encrypt ?(.*)")
