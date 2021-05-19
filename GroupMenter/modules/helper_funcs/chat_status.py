@@ -2,7 +2,7 @@ from time import perf_counter
 from functools import wraps
 from cachetools import TTLCache
 from threading import RLock
-from MashaRoBot import (
+from GroupMenter import (
     DEL_CMDS,
     DEV_USERS,
     DRAGONS,
@@ -403,6 +403,6 @@ def connection_status(func):
 
 
 # Workaround for circular import with connection.py
-from MashaRoBot.modules import connection
+from GroupMenter.modules import connection
 
 connected = connection.connected
