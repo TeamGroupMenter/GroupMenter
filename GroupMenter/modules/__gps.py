@@ -1,8 +1,8 @@
 import os
-from MashaRoBot import telethn as tbot
+from GroupMenter import telethn as tbot
 from geopy.geocoders import Nominatim
-from MashaRoBot.events import register
-from MashaRoBot import *
+from GroupMenter.events import register
+from GroupMenter import *
 from telethon import *
 from telethon.tl import *
 
