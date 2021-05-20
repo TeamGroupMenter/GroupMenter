@@ -30,7 +30,7 @@ You can also join our support group [here](https://t.me/GroupMenterGroup)!
 
 ### Developers 👨🏻‍💻
 
-**[Vivek](https://github.com/Vivek-TP)** ▪ **[Shameel Habeeb](https://github.com/shamilhabeebnelli)** ▪ **[Uvindu Bro](https://github.com/UvinduBro)**
+**[Vivek](https://github.com/Vivek-TP)** ▪ **[Shameel Habeeb](https://github.com/shamilhabeebnelli)** ▪ **[Uvindu Bro](https://github.com/UvinduBro)** **[Miss-Valentina](https://github.com/Miss-Valentina)**
 
 ### Credits ❤
 <details><summary>All Credits Here</summary>
