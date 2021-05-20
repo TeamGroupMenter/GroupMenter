@@ -1,11 +1,11 @@
 # Team Group Menter
 
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shamilhabeebnelli&layout=compact&theme=radical)](https://github.com/TeamGroupMenter)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=teamgroupmenter&layout=compact&theme=radical)](https://github.com/TeamGroupMenter)
 
 ## Copyrights Are Owned to My Devs
 
-#### • Vivek Tp    »»  <a href="https://github.com/Vivek-TP" alt="Vivek-TP"> <img src="https://img.shields.io/badge/Vivek-Tp-90442f?logo=github" /></a> (OWNER)
+#### • Vivek Tp    »»  <a href="https://github.com/Vivek-TP" alt="Vivek-TP"> <img src="https://img.shields.io/badge/Vivek-Tp-90442f?logo=github" /></a>
 
 #### • Shamil Habeeb    »»  <a href="https://github.com/shamilhabeebnelli" alt="Shamilhabeebnelli"> <img src="https://img.shields.io/badge/Shamil Habeeb-Nelli-10Af8D?logo=github" /></a> (DEV)
 #### • Uvindu Bro  »»  <a href="https://github.com/uvindubro" alt="Uvindu-Bro"> <img src="https://img.shields.io/badge/Uvindu-Bro-82ADFA?logo=github" /></a> (DEV)
