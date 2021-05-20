@@ -1,4 +1,5 @@
-# © @Mr_Dark_Prince
+#Kangers Stay Away 
+#© TEAM GROUP MENTER
 import sys
 import traceback
 from functools import wraps
