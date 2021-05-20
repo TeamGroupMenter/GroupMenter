@@ -66,7 +66,7 @@ RUN pip3 install --upgrade pip setuptools
 
 # Copy Python Requirements to /root/GroupMenter
 RUN git clone -b shiken https://github.com/TeamGroupMenter/GroupMenter /root/GroupMenter
-WORKDIR /root/MashaRoBot
+WORKDIR /root/GroupMenter
 
 #Copy config file to /root/GroupMenter/GroupMenter
 COPY ./GroupMenter/sample_config.py ./GroupMenter/config.py* /root/GroupMenter/GroupMenter/
