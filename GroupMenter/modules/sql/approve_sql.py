@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import Column, String, UnicodeText, Integer, func, distinct
 
-from MashaRoBot.modules.sql import BASE, SESSION
+from GroupMenter.modules.sql import BASE, SESSION
 
 
 class Approvals(BASE):
