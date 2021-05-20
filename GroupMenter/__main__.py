@@ -94,7 +94,7 @@ buttons = [
         InlineKeyboardButton(
             text="🛠  About", callback_data="groupmenter"),
         InlineKeyboardButton(
-            text="❔ Help", callback_data="help_back
+            text="❔ Help", callback_data="help_back)
         ),
     ],
 ]
@@ -128,7 +128,7 @@ CHAT_SETTINGS = {}
 USER_SETTINGS = {}
 
 for module_name in ALL_MODULES:
-    imported_module = importlib.import_module("MashaRoBot.modules." + module_name)
+    imported_module = importlib.import_module("GroupMenter.modules." + module_name)
     if not hasattr(imported_module, "__mod_name__"):
         imported_module.__mod_name__ = imported_module.__name__
 
@@ -368,7 +368,7 @@ def groupmenter_about_callback(update: Update, context: CallbackContext):
                  ❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  ❍ I check for admins' permissions before executing any command and more stuffs
                  \n_Group Menter's licensed under the GNU General Public License v3.0_
-                 Here is the [💾Repository](https://github.com/Mr-Dark-Prince/MashaRoBot).
+                 Here is the [💾Repository](https://github.com/TeamGroupMenter/GroupMenter).
                  If you have any question about Group Menter, let us know at @WasteBots.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -396,7 +396,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi..🤗 I'm *Group Menter*
-                 \nHere is the [Source Code](https://github.com/Mr-Dark-Prince/MashaRoBot) .""",
+                 \nHere is the [Source Code](https://github.com/TeamGroupMenter/GroupMenter) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
