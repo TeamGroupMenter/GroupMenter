@@ -9,13 +9,8 @@
 
 #### • Shamil Habeeb    »»  <a href="https://github.com/shamilhabeebnelli" alt="Shamilhabeebnelli"> <img src="https://img.shields.io/badge/Shamil Habeeb-107f8D?logo=github" /></a> (DEV)
 
-#### • ROSELOVERX  »»  <a href="https://github.com/Amarnathcdj" alt="RoseLoverX"> <img src="https://img.shields.io/badge/RoseLoverX-82CAFA?logo=github" /></a> (DEV)
 
-#### • INFOTECHBRO  »»  <a href="https://github.com/infotechbro" alt="infotechbro"> <img src="https://img.shields.io/badge/infotechbro-82CAFA?logo=github" /></a> (DEV)
 
-#### • ANJANA_MA »»  <a href="https://github.com/Anjana_ma" alt="Anjana"> <img src="https://img.shields.io/badge/Anjana-30302f?logo=github" /></a>
-
- 
 
 ## Disclaimer
 
