@@ -1,7 +1,7 @@
 import threading
 
-from MashaRoBot import dispatcher
-from MashaRoBot.modules.sql import BASE, SESSION
+from GroupMenter import dispatcher
+from GroupMenter.modules.sql import BASE, SESSION
 from sqlalchemy import Boolean, Column, Integer, String, UnicodeText
 from telegram.error import BadRequest, Unauthorized
 
