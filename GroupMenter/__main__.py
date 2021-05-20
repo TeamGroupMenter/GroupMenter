@@ -97,7 +97,6 @@ buttons = [
             text="❔ Help", callback_data="help_back")
         ],
     ],
-]
 
 
 HELP_STRINGS = """
