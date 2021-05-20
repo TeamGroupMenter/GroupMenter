@@ -92,7 +92,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="🛠  About", callback_data="groupmenter_"),
+            text="🛠  About", callback_data="group_back"),
         InlineKeyboardButton(
             text="❔ Help", callback_data="help_back"
         ),
