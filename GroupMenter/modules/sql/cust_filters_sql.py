@@ -2,8 +2,8 @@ import threading
 
 from sqlalchemy import Column, String, UnicodeText, Boolean, Integer, distinct, func
 
-from MashaRoBot.modules.helper_funcs.msg_types import Types
-from MashaRoBot.modules.sql import BASE, SESSION
+from GroupMenter.modules.helper_funcs.msg_types import Types
+from GroupMenter.modules.sql import BASE, SESSION
 
 
 class CustomFilters(BASE):
