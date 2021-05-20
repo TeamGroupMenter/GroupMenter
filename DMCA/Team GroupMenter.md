@@ -1,7 +1,7 @@
 # Team Group Menter
 
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=teamgroupmenter&layout=compact&theme=radical)](https://github.com/TeamGroupMenter)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=spechidle&layout=compact&theme=radical)](https://github.com/TeamGroupMenter)
 
 ## Copyrights Are Owned to My Devs
 
