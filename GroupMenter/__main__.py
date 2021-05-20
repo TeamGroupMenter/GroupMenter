@@ -92,7 +92,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="🛠  About", callback_data="groupmenter"),
+            text="🛠  About", callback_data="groupmenter_"),
         InlineKeyboardButton(
             text="❔ Help", callback_data="help_back")
         ],
@@ -707,7 +707,7 @@ def main():
     settings_handler = CommandHandler("settings", get_settings)
     settings_callback_handler = CallbackQueryHandler(settings_button, pattern=r"stngs_")
 
-    about_callback_handler = CallbackQueryHandler(about_callback, pattern=r"groupmenter")
+    about_callback_handler = CallbackQueryHandler(groupmenter_about_callback, pattern=r"groupmenter_")
     source_callback_handler = CallbackQueryHandler(Source_about_callback, pattern=r"source_")
 
     donate_handler = CommandHandler("donate", donate)
