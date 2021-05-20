@@ -32,7 +32,7 @@ You can also join our support group [here](https://t.me/GroupMenterGroup)!
 
 ### Developers 👨🏻‍💻
 
-- **[Vivek](https://github.com/Vivek-TP)**
+**[Vivek](https://github.com/Vivek-TP)** ▪ **[Shameel Habbeb](shamilhabeebnelli)** ▪ **[Uvindu Bro](https://github.com/UvinduBro)**
 
 ### Credits ❤
 <details><summary>All Credits Here</summary>
