@@ -102,7 +102,7 @@ if ENV:
         raise Exception("Your blacklisted chats list does not contain valid integers.")
 
 else:
-    from MashaRoBot.config import Development as Config
+    from GroupMenter.config import Development as Config
 
     TOKEN = Config.TOKEN
 
@@ -193,8 +193,8 @@ else:
 
 
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
-telethn = TelegramClient("masha", API_ID, API_HASH)
-pbot = Client("mashapbot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
+telethn = TelegramClient("groupmenter", API_ID, API_HASH)
+pbot = Client("groupmenterbot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 dispatcher = updater.dispatcher
 
 DRAGONS = list(DRAGONS) + list(DEV_USERS)
@@ -204,7 +204,7 @@ DEMONS = list(DEMONS)
 TIGERS = list(TIGERS)
 
 # Load at end to ensure all prev variables have been set
-from MashaRoBot.modules.helper_funcs.handlers import (
+from GroupMenter.modules.helper_funcs.handlers import (
     CustomCommandHandler,
     CustomMessageHandler,
     CustomRegexHandler,
