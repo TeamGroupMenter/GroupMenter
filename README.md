@@ -11,13 +11,13 @@ An PowerFull Group Manager Bot. Written In Pytelethon.
 
 ##### Info
 
-A modular Telegram Python bot running on python3.
+• A modular Telegram Python bot running on python3.
 
-Can be found on telegram as [GroupMenter](https://t.me/GroupMenterRoBot).
+• Can be found on telegram as [GroupMenter](https://t.me/GroupMenterRoBot).
 
-Alternatively, find me on telegram! (Keep all support questions in the support chat, where more people can help you.)
+• Alternatively, find me on telegram! (Keep all support questions in the support chat, where more people can help you.)
 
-You can also join our support group [here](https://t.me/GroupMenterGroup)!
+• You can also join our support group [here](https://t.me/GroupMenterGroup)!
 
 - Anime Theme Bot
 
