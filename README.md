@@ -9,6 +9,8 @@ An PowerFull Group Manager Bot. Written In Pytelethon.
 
 [![Telegram](https://img.shields.io/badge/Channel-003245?style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=telegram)](https://t.me/GroupMenterUpdates)&nbsp; [![Telegram](https://img.shields.io/badge/Support-003245?style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=telegram)](https://t.me/GroupMenterGroup)&nbsp;
 
+##### Info
+
 A modular Telegram Python bot running on python3.
 
 Can be found on telegram as [GroupMenter](https://t.me/GroupMenterRoBot).
