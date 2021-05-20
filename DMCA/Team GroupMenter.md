@@ -9,7 +9,8 @@
 
 #### • Shamil Habeeb    »»  <a href="https://github.com/shamilhabeebnelli" alt="Shamilhabeebnelli"> <img src="https://img.shields.io/badge/Shamil Habeeb-107f8D?logo=github" /></a> (DEV)
 #### • Uvindu Bro  »»  <a href="https://github.com/uvindubro" alt="Uvindu-Bro"> <img src="https://img.shields.io/badge/Uvindu Bro-82CDFA?logo=github" /></a> (DEV)
-
+#### • ROSELOVERX  »»  <a href="https://github.com/Amarnathcdj" alt="RoseLoverX"> <img src="https://img.shields.io/badge/RoseLoverX-82CAFA?logo=github" /></a> (DEV)
+#### • Miss - Valentina  »»  <a href="https://github.com/Miss-Valentina" alt="Valentina"> <img src="https://img.shields.io/badge/Miss-Valentina-82DEFA?logo=github" /></a> (DEV)
 
 
 
