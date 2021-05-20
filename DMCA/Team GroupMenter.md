@@ -12,6 +12,8 @@
 
 **• Miss - Valentina <a href="https://github.com/Miss-Valentina" alt="Valentina"> <img src="https://img.shields.io/badge/Miss-Valentina-82DEFA?logo=github" /></a> (DEV)**
 
+`All Credis Goes To Real Repo Owners`
+
 #### Disclaimer
 
 [![GNU Affero General Public License v3.0](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)    
