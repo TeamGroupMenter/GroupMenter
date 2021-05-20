@@ -19,8 +19,6 @@ Alternatively, find me on telegram! (Keep all support questions in the support c
 
 You can also join our support group [here](https://t.me/GroupMenterGroup)!
 
-### Features ✨
-
 - Anime Theme Bot
 
 ### Deploy to heroku 💤
