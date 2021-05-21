@@ -1,4 +1,4 @@
-           **Group Menter**
+<h1 align="center">Group Menter</h1>
 [![Top](https://github.com/halfrost/halfrost/blob/master/icons/header_.png)](https://github.com/TeamGroupMenter)
 
 ## Playing Now : 🎧  <!--img src="https://media.giphy.com/media/kC8QA2OYWOADK0e1Uk/giphy.gif" width="30" style="padding-top: 10px;" -->
