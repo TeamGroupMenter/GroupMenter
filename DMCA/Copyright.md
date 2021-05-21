@@ -36,7 +36,7 @@ Here are some ideas to get you started:
 # Team Group Menter
 
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=spechide&layout=compact&theme=radical)](https://github.com/TeamGroupMenter)
+[![Top Langs](https://github.com/sisodiya2421/sisodiya2421/blob/master/images/bottom.svg)](https://github.com/TeamGroupMenter)
 
 ### Copyrights Are Owned to My Devs
 
