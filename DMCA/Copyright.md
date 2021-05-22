@@ -19,7 +19,8 @@ An PowerFull Group Manager Bot. Written In Pytelethon.
 
 
 
-[![Devs](https://img.shields.io/badge/Devs-003245?style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=github)](https://github.com/TeamGroupMenter) : [Vivek](https://github.com/Vivek-TP)▪[Shameel Habeeb](https://github.com/shamilhabeebnelli)▪[Uvindu Bro](https://github.com/UvinduBro)▪[Miss-Valentina](https://github.com/Miss-Valentina)
+[![Devs](https://img.shields.io/badge/Devs-003245?style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=github)](https://github.com/TeamGroupMenter) : [Vivek](https://github.com/Vivek-TP)▪[Shameel Habeeb](https://github.com/shamilhabeebnelli)▪[Uvindu Bro](https://github.com/UvinduBro)▪[Miss-Valentina](https://github.com/Miss-Valentina) ▪ [Devil](https://github.com/lucifeermorningstar)
+
 
 [![Credits](https://img.shields.io/badge/Credits-ff0000?style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=github)](https://github.com/TeamGroupMenter) : [MashaRobot](https://github.com/Mr-Dark-Prince/MashaRoBot)▪[SaitamaRobot](https://github.com/AnimeKaizoku/SaitamaRobot)▪[WilliamButcherBot](https://github.com/thehamkercat/WilliamButcherBot)
 
