@@ -4,6 +4,9 @@
 
 An PowerFull Group Manager Bot. Written In Pytelethon.
 
+[![Telegram](https://img.shields.io/badge/Channel-003245?style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=telegram)](https://t.me/GroupMenterUpdates)&nbsp; [![Telegram](https://img.shields.io/badge/Support-003245?style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=telegram)](https://t.me/GroupMenterGroup)&nbsp;
+
+
 • A modular Telegram Python bot running on python3.
 
 • Can be found on telegram as [GroupMenter](https://t.me/GroupMenterRoBot).
@@ -14,7 +17,7 @@ An PowerFull Group Manager Bot. Written In Pytelethon.
 
 - Anime Theme Bot
 
-[![Telegram](https://img.shields.io/badge/Channel-003245?style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=telegram)](https://t.me/GroupMenterUpdates)&nbsp; [![Telegram](https://img.shields.io/badge/Support-003245?style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=telegram)](https://t.me/GroupMenterGroup)&nbsp;
+
 
 [![Devs](https://img.shields.io/badge/Devs-003245?style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=github)](https://github.com/TeamGroupMenter) : [Vivek](https://github.com/Vivek-TP)▪[Shameel Habeeb](https://github.com/shamilhabeebnelli)▪[Uvindu Bro](https://github.com/UvinduBro)▪[Miss-Valentina](https://github.com/Miss-Valentina)
 
