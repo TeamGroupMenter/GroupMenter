@@ -28,15 +28,15 @@ An PowerFull Group Manager Bot. Written In Pytelethon.
      <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
   </a>
 
-### Developers 👨🏻‍💻
+### Devs 👨🏻‍💻
 
-**[Vivek](https://github.com/Vivek-TP)** ▪ **[Shameel Habeeb](https://github.com/shamilhabeebnelli)** ▪ **[Uvindu Bro](https://github.com/UvinduBro)** ▪ **[Miss-Valentina](https://github.com/Miss-Valentina)**
+**[Vivek](https://github.com/Vivek-TP)** ▪ **[Shameel Habeeb](https://github.com/shamilhabeebnelli)** ▪ **[Uvindu Bro](https://github.com/UvinduBro)** ▪ **[Miss-Valentina](https://github.com/Miss-Valentina)** ▪ **[Devil](https://github.com/lucifeermorningstar)**
 
 ### Credits ❤
 <details><summary>All Credits Here</summary>
 <p>
 
-**[Vivek](https://github.com/VIVEK-TP)** ▪ **[Aswin Raj](https://github.com/ASWIN-RAJ-TG)** ▪ **[ᴊᴀʏᴀиᴛ ʜᴇɢᴅᴇ ᴋᴀɢᴇяɪ](https://github.com/jayantkagerI)** ▪ **[Fayas](https://github.com/FAYASNOUSHAD)** ▪ **[RabbitFoRed](https://github.com/RabbitFored)** ▪ **[Itz-Fork](https://github.com/Itz-fork)** ▪ **[HEIMAN PICTURES](https://github.com/HeimanPictures)** ▪ **[Uvindu Bro](https://github.com/UvinduBro)** ▪ **[Devil](https://github.com/lucifeermorningstar)** ▪ **[Miss-Valentina](https://github.com/Miss-Valentina)** ▪ **[MashaRobot](https://github.com/Mr-Dark-Prince/MashaRoBot)** ▪ **[SaitamaRobot](https://github.com/AnimeKaizoku/SaitamaRobot)** ▪ **[WilliamButcherBot](https://github.com/thehamkercat/WilliamButcherBot)**
+**[Vivek](https://github.com/VIVEK-TP)** ▪ **[Aswin Raj](https://github.com/ASWIN-RAJ-TG)** ▪ **[Fayas](https://github.com/FAYASNOUSHAD)** ▪ **[Uvindu Bro](https://github.com/UvinduBro)** ▪ **[Devil](https://github.com/lucifeermorningstar)** ▪ **[Miss-Valentina](https://github.com/Miss-Valentina)** ▪ **[MashaRobot](https://github.com/Mr-Dark-Prince/MashaRoBot)** ▪ **[SaitamaRobot](https://github.com/AnimeKaizoku/SaitamaRobot)** ▪ **[WilliamButcherBot](https://github.com/thehamkercat/WilliamButcherBot)**
 
 </details>
 
