@@ -15,8 +15,9 @@
 <details><summary>Disclaimer</summary>
 <p>
 
-[![GNU Affero General Public License v3.0](https://en.m.wikipedia.org/wiki/File:GPLv3_Logo.svg)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)    
-Licensed under [GNU AGPL v3.0.](https://github.com/TeamGroupMenter/GroupMenter/blob/main/LICENSE)
+[![GNU Affero General Public License v3.0](https://telegra.ph/file/b058dfea00711412e7626.jpg)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)    
+
+Licensed under [GNU General Public Lice v3.0.](https://github.com/TeamGroupMenter/GroupMenter/blob/main/LICENSE)
 Selling The Codes To Other People For Money Is *Strictly Prohibited*.
 
 </details>
