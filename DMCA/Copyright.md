@@ -4,6 +4,8 @@
 
 An PowerFull Group Manager Bot. Written In Pytelethon.
 
+Developers : [Vivek](https://github.com/Vivek-TP) ▪ [Shameel Habeeb](https://github.com/shamilhabeebnelli) ▪ [Uvindu Bro](https://github.com/UvinduBro) ▪ [Miss-Valentina](https://github.com/Miss-Valentina)
+
 Credits : [MashaRobot](https://github.com/Mr-Dark-Prince/MashaRoBot) ▪ [SaitamaRobot](https://github.com/AnimeKaizoku/SaitamaRobot) ▪ [WilliamButcherBot](https://github.com/thehamkercat/WilliamButcherBot)
 
 ## Playing Now : 🎧  <!--img src="https://media.giphy.com/media/kC8QA2OYWOADK0e1Uk/giphy.gif" width="30" style="padding-top: 10px;" -->
