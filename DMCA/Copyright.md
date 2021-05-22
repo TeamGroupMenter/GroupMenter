@@ -16,9 +16,9 @@ An PowerFull Group Manager Bot. Written In Pytelethon.
 
 [![Telegram](https://img.shields.io/badge/Channel-003245?style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=telegram)](https://t.me/GroupMenterUpdates)&nbsp; [![Telegram](https://img.shields.io/badge/Support-003245?style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=telegram)](https://t.me/GroupMenterGroup)&nbsp;
 
-[![Devs](https://img.shields.io/badge/Devs-003245?style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=github)] : [Vivek](https://github.com/Vivek-TP)▪[Shameel Habeeb](https://github.com/shamilhabeebnelli)▪[Uvindu Bro](https://github.com/UvinduBro)▪[Miss-Valentina](https://github.com/Miss-Valentina)
+[![Devs](https://img.shields.io/badge/Devs-003245?style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=github)](https://github.com/TeamGroupMenter) : [Vivek](https://github.com/Vivek-TP)▪[Shameel Habeeb](https://github.com/shamilhabeebnelli)▪[Uvindu Bro](https://github.com/UvinduBro)▪[Miss-Valentina](https://github.com/Miss-Valentina)
 
-[![Credits](https://img.shields.io/badge/Credits-ff0000?style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=github)] : [MashaRobot](https://github.com/Mr-Dark-Prince/MashaRoBot)▪[SaitamaRobot](https://github.com/AnimeKaizoku/SaitamaRobot)▪[WilliamButcherBot](https://github.com/thehamkercat/WilliamButcherBot)
+[![Credits](https://img.shields.io/badge/Credits-ff0000?style=flat&labelColor=224242&logoColor=white&for-the-badge&logo=github)](https://github.com/TeamGroupMenter) : [MashaRobot](https://github.com/Mr-Dark-Prince/MashaRoBot)▪[SaitamaRobot](https://github.com/AnimeKaizoku/SaitamaRobot)▪[WilliamButcherBot](https://github.com/thehamkercat/WilliamButcherBot)
 
 ## Playing Now : 🎧  <!--img src="https://media.giphy.com/media/kC8QA2OYWOADK0e1Uk/giphy.gif" width="30" style="padding-top: 10px;" -->
 
