@@ -38,8 +38,8 @@ Country = "🇮🇳"
 ### Follow Me🔥
 
 <p align="center">
-  (https://img.shields.io/badge/telegram-1b77FF.svg?style=for-the-badge&logo=telegram)](https://t.me/Vivek_Kerala)
-  (https://img.shields.io/badge/github-ff000.svg?style=for-the-badge&logo=github)](https://github.com/Vivek-TP) 
+!TOP](https://img.shields.io/badge/telegram-1b77FF.svg?style=for-the-badge&logo=telegram)](https://t.me/Vivek_Kerala)
+!TOPX](https://img.shields.io/badge/github-ff000.svg?style=for-the-badge&logo=github)](https://github.com/Vivek-TP) 
 <br>
 </p>
 
