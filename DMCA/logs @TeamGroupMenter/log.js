@@ -14,17 +14,7 @@ from import)*
 from telegram.app.import.files/bot/search=groupmenterrobot;sel_uptime
      tg.open.up
              #uptime!!!
-8.180
-118.1
-wow1I the 
-91881
 
-1p1k1
-Lpkq
-qai
-Laim
-Ala
-aj19161916187owua282n28wwv
-Na a
-Oa
-Ajaoa
+status=("%@$,&@+up+time")*&("start")
+                             point=5.py.Time=92.0211.30.3972_Update.from.import_up.time.st=GM)]]](]
+        pri=(/_=¿♧□•)
