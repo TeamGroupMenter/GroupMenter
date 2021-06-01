@@ -1,6 +1,6 @@
 >>>>>>>>>>>Group Menter<<<<<<<<<<
 
-■■■■■■■■■■■■■■■■■■■■■■■■■ 
+■■■■■■■■■■■■■■■■■■■■■□□□
 》》》》》》》》》》》》》》》》》》》》》》》》》
 
 Upstats:[20_**]
@@ -19,3 +19,5 @@ from telegram.app.import.files/bot/search=groupmenterrobot;sel_uptime
 status=("%@$,&@+up+time")*&("start")
                              point=5.py.Time=92.0211.30.3972_Update.from.import_up.time.st=GM)]]](]
         pri=(/_=¿♧□•)
+import js
+export_data.log("main") & Fi.js
