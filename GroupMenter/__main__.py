@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*Hey there! My name is Group Menter 🤖*.
+*Hey there! My name is Group Menter*.
 *I'm here to help you manage your groups!*
 
 Hit /help to find out more about how to use me to my full potential.
