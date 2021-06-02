@@ -100,15 +100,15 @@ buttons = [
 
 
 HELP_STRINGS = """
-**Hey There! My name is *Group Menter.**
-**I'm here to help you manage your groups!**
+<b>Hey There! My name is *Group Menter.
+I'm here to help you manage your groups!</b>
 
-**Commands available:**
-**× /start: Start the bot**
-**× /help: Give's you this message.**
-**× /donate: Information related on how to support my creator!**
+<b>Commands available:
+× /start: Start the bot
+× /help: Give's you this message.
+× /donate: Information related on how to support my creator!</b>
 
-**All commands can either be used with / OR !.**"""
+<b>All commands can either be used with / OR !.<b>"""
 
 
 DONATE_STRING = """Hey Thanks for your thought of donating me!
