@@ -108,7 +108,8 @@ I'm here to help you manage your groups!</b>
 × /help: Give's you this message.
 × /donate: Information related on how to support my creator!</b>
 
-<b>All commands can either be used with / OR !.<b>"""
+<b>All commands can either be used with / OR !.<b>
+"""
 
 
 DONATE_STRING = """Hey Thanks for your thought of donating me!
