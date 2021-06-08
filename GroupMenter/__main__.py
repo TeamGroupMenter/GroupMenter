@@ -90,8 +90,8 @@ buttons = [
         InlineKeyboardButton(text="📜 Source", url="https://github.com/TeamGroupMenter/GroupMenter"),
     ],
     [
-        InlineKeyboardButton(text="🤖 GroupMenter News", url="https://t.me/GroupMenterUpdates"),
-        InlineKeyboardButton(text="👥 GroupMenter Support", url="https://t.me/GroupMenterGroup"),
+        InlineKeyboardButton(text="🤖 News", url="https://t.me/GroupMenterUpdates"),
+        InlineKeyboardButton(text="👥 Support", url="https://t.me/GroupMenterGroup"),
     ],
     [
         InlineKeyboardButton(
