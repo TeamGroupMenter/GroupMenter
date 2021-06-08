@@ -86,12 +86,14 @@ buttons = [
             text="➕️ ADD TO YOUR GROUP ➕️", url="https://t.me/GroupMenterRobot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="🤖 Updates", url="https://t.me/GroupMenterUpdates"),
-        InlineKeyboardButton(text="👥 SUPPORT", url="https://t.me/GroupMenterGroup"),
+        InlineKeyboardButton(text="👨🏻‍🔬 My Devs", url="https://github.com/TeamGroupMenter/GroupMenter"),
+        InlineKeyboardButton(text="📜 Source", url="https://github.com/TeamGroupMenter/GroupMenter"),
     ],
     [
-        InlineKeyboardButton(
-            text="🛠 About", callback_data="groupmenter"),
+        InlineKeyboardButton(text="🤖 GroupMenter News", url="https://t.me/GroupMenterUpdates"),
+        InlineKeyboardButton(text="👥 GroupMenter Support", url="https://t.me/GroupMenterGroup"),
+    ],
+    [
         InlineKeyboardButton(
             text="❔ Help", callback_data="help_back"
         ),
@@ -100,15 +102,15 @@ buttons = [
 
 
 HELP_STRINGS = """
-<b>Hey There! My name is *Group Menter.
-I'm here to help you manage your groups!</b>
+Hey There! My name is Group Menter.
+I'm here to help you manage your groups!
 
-<b>Commands available:
+Commands available:
 × /start: Start the bot
 × /help: Give's you this message.
-× /donate: Information related on how to support my creator!</b>
+× /donate: Information related on how to support my creator!
 
-<b>All commands can either be used with / OR !.<b>
+All commands can either be used with / OR !.
 """
 
 
