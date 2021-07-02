@@ -28,7 +28,7 @@ from GroupMenter import (
 from GroupMenter.modules import ALL_MODULES
 from GroupMenter.modules.helper_funcs.chat_status import is_user_admin
 from GroupMenter.modules.helper_funcs.misc import paginate_modules
-from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
+from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update, alert
 from telegram.error import (
     BadRequest,
     ChatMigrated,
@@ -86,7 +86,7 @@ buttons = [
             text="➕️ ADD TO YOUR GROUP ➕️", url="https://t.me/GroupMenterRobot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="🇦🇺 Languages", alert="This Feature Will Ready Soon"),
+        InlineKeyboardButton(text="🇦🇺 Languages", alert="This Feature Will Ready Soon", show_alert=ture),
         InlineKeyboardButton(text="📜 Source", url="https://github.com/TeamGroupMenter/GroupMenter"),
     ],
     [
