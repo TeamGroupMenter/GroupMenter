@@ -29,7 +29,7 @@ from GroupMenter import (
 from GroupMenter.modules import ALL_MODULES
 from GroupMenter.modules.helper_funcs.chat_status import is_user_admin
 from GroupMenter.modules.helper_funcs.misc import paginate_modules
-from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update,
+from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.error import (
     BadRequest,
     ChatMigrated,
