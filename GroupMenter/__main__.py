@@ -3,7 +3,6 @@ import time
 import re
 from sys import argv
 from typing import Optional
-from program import alert
 
 from GroupMenter import (
     ALLOW_EXCL,
