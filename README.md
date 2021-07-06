@@ -3,6 +3,10 @@
 An PowerFull Group Manager Bot. Written In Pytelethon.
 
 <p align="center">
+  <img src="https://telegra.ph/file/fd28c4d14220d0beb3ba1.jpg">
+</p>
+
+<p align="center">
   <a href="https://python.org">
      <img height="30px" src="http://forthebadge.com/images/badges/made-with-python.svg">
   </a>
