@@ -86,12 +86,8 @@ buttons = [
             text="➕️ ADD TO YOUR GROUP ➕️", url="https://t.me/GroupMenterRobot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="🇦🇺 Language", url="https://t.me/TG_BOT_DEVS/16"),
-        InlineKeyboardButton(text="📜 Source", url="https://github.com/TeamGroupMenter/GroupMenter"),
-    ],
-    [
-        InlineKeyboardButton(text="🤖 News", url="https://t.me/GroupMenterUpdates"),
-        InlineKeyboardButton(text="👥 Support", url="https://t.me/GroupMenterGroup"),
+        InlineKeyboardButton(text="Updates", url="https://t.me/GroupMenterUpdates"),
+        InlineKeyboardButton(text="Support", url="https://t.me/GroupMenterGroup"),
     ],
     [
         InlineKeyboardButton(
