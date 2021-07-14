@@ -77,7 +77,7 @@ PM_START_TEXT = """
 *Hey there! My name is Group Menter*.
 *I'm here to help you manage your groups!*
 
-Hit /help to find out more about how to use me to my full potential.
+*Hit /help to find out more about how to use me to my full potential.*
 """
 
 buttons = [
@@ -103,7 +103,9 @@ HELP_STRINGS = """
 
 *Commands available:*
 *× /start: Start the bot*
+
 *× /help: Give's you this message.*
+
 *× /donate: Information related on how to support my creator!*
 
 A*ll commands can either be used with / OR !.*
