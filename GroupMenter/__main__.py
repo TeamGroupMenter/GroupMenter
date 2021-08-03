@@ -708,6 +708,7 @@ def main():
 
     test_handler = CommandHandler("test", test)
     start_handler = CommandHandler("start", start)
+    start_callback_handler = CallbackQueryHandler(pattern=r"_start_")
 
     help_handler = CommandHandler("help", get_help)
     help_callback_handler = CallbackQueryHandler(help_button, pattern=r"help_.*")
