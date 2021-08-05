@@ -74,10 +74,10 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*Hey there! My name is Group Menter*.
-*I'm here to help you manage your groups!*
+Hey there! My name is Group Menter.
+I'm here to help you manage your groups!
 
-*Hit /help to find out more about how to use me to my full potential.*
+Hit /help to find out more about how to use me to my full potential.
 """
 
 buttons = [
@@ -91,24 +91,22 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="❔ Help", callback_data="help_back"
+            text="Commands ❔", callback_data="help_back"
         ),
     ],
 ]
 
 
 HELP_STRINGS = """
-*Hey There! My name is Group Menter.*
-*I'm here to help you manage your groups!*
+Hey There! My name is Group Menter.
+I'm here to help you manage your groups!
 
-*Commands available:*
-*× /start: Start the bot*
+Commands available:
+× /start: Start the bot
+× /help: Give's you this message.
+× /donate: Information related on how to support my creator!
 
-*× /help: Give's you this message.*
-
-*× /donate: Information related on how to support my creator!*
-
-A*ll commands can either be used with / OR !.*
+All commands can either be used with / OR !.
 """
 
 
