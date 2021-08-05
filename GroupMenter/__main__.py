@@ -116,7 +116,9 @@ DONATE_STRING = """Hey Thanks for your thought of donating me!
 When you donate, all the fund goes towards my development which makes on fast and responsive.
 Your donation might also me get me a new feature or two, which I wasn't able to get due to server limitations.
 
-All the fund would be put into my services such as database, storage and hosting!."""
+All the fund would be put into my services such as database, storage and hosting!.
+
+You Can donate to this bot via [PayPal](paypal.me/vivektvp Or [Buy Me a Coffee.](https://ko-fi.com/VIVEKTP)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -650,7 +652,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 254318997 and DONATION_LINK:
+        if OWNER_ID != 1414146649 and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
                 "[here]({})".format(DONATION_LINK),
