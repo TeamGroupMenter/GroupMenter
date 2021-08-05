@@ -118,7 +118,7 @@ Your donation might also me get me a new feature or two, which I wasn't able to 
 
 All the fund would be put into my services such as database, storage and hosting!.
 
-You Can donate to this bot via [PayPal](paypal.me/vivektvp Or [Buy Me a Coffee.](https://ko-fi.com/VIVEKTP)"""
+You Can donate to this bot via [PayPal](paypal.me/vivektvp) Or [Buy Me a Coffee.](https://ko-fi.com/VIVEKTP)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
